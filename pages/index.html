@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink_Cake_portfolio</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="페이지 제목" />
+    <meta property="og:description" content="페이지 설명" />
+    <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg" />
+    <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="페이지 제목" />
+    <meta name="twitter:description" content="페이지 설명" />
+    <meta name="twitter:image" content="http://www.mysite.com/article/article1.html" />
+    <meta name="twitter:domain" content="사이트 명" />
+    <link rel="shortcut icon" href="http://www.mysite.com/favicon.ico" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../resources/css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="../resources/js/include.js"></script>
+    <script defer src="../resources/js/ui-pattern.js"></script>
+    <script defer src="../resources/js/ui-swiper.js"></script>
+  </head>
+  <body>
+    <div id="skip-nav">
+      <a href="#gnb">메뉴 바로가기</a>
+      <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+      <header id="header" class="">
+        <div class="inner">
+          <h1 id="logo">
+            <a href="#"
+              ><img src="../resources/images/pattern/common/Raeser_logo.svg" alt="" />
+              <span>레터링 케이크</span>
+            </a>
+          </h1>
+          <nav id="gnb" class="gnb">
+            <ul class="gnb__depth1">
+              <li>
+                <a href="#">
+                  <span>menu1</span>
+                </a>
+                <ul class="gnb__depth2">
+                  <li><a href="#">menu1-1</a></li>
+                  <li><a href="#">menu1-2</a></li>
+                  <li><a href="#">menu1-3</a></li>
+                  <li><a href="#">menu1-4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><span>menu2</span></a>
+                <ul class="gnb__depth2">
+                  <li><a href="#">menu2-1</a></li>
+                  <li><a href="#">menu2-2</a></li>
+                  <li><a href="#">menu2-3</a></li>
+                  <li><a href="#">menu2-4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><span>menu3</span></a>
+                <ul class="gnb__depth2">
+                  <li><a href="#">menu3-1</a></li>
+                  <li><a href="#">menu3-2</a></li>
+                  <li><a href="#">menu3-3</a></li>
+                  <li><a href="#">menu3-4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><span>menu4</span></a>
+                <ul class="gnb__depth2">
+                  <li><a href="#">menu4-1</a></li>
+                  <li><a href="#">menu4-2</a></li>
+                  <li><a href="#">menu4-3</a></li>
+                  <li><a href="#">menu4-4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="util">
+            <!-- active 추가시 활성화 -->
+            <div class="lang">
+              <button class="lang__btn">kor</button>
+              <ul class="lang__lst">
+                <li>kor</li>
+                <li>eng</li>
+              </ul>
+            </div>
+            <button class="search">
+              <span class="blind">검색</span>
+            </button>
+            <button class="all-menu">
+              <span class="blind">전체메뉴</span>
+            </button>
+          </div>
+        </div>
+        <!-- active 추가시 활성화 -->
+        <nav id="nav-all" class="">
+          <ul class="gnb__depth1">
+            <li>
+              <a href="#">
+                <span>menu1</span>
+              </a>
+              <ul class="gnb__depth2">
+                <li><a href="#">menu1-1</a></li>
+                <li><a href="#">menu1-2</a></li>
+                <li><a href="#">menu1-3</a></li>
+                <li><a href="#">menu1-4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>menu2</span></a>
+              <ul class="gnb__depth2">
+                <li><a href="#">menu2-1</a></li>
+                <li><a href="#">menu2-2</a></li>
+                <li><a href="#">menu2-3</a></li>
+                <li><a href="#">menu2-4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>menu3</span></a>
+              <ul class="gnb__depth2">
+                <li><a href="#">menu3-1</a></li>
+                <li><a href="#">menu3-2</a></li>
+                <li><a href="#">menu3-3</a></li>
+                <li><a href="#">menu3-4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span>menu4</span></a>
+              <ul class="gnb__depth2">
+                <li><a href="#">menu4-1</a></li>
+                <li><a href="#">menu4-2</a></li>
+                <li><a href="#">menu4-3</a></li>
+                <li><a href="#">menu4-4</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <button class="close">
+            <span class="">전체메뉴 닫기</span>
+          </button>
+        </nav>
+      </header>
+      <main id="main_container">
+        <div class="video_wrap">
+          <div class="main_txt_wrap">
+            <div class="main_txt">
+              <h2 class="main_txt_tit">큰글씨</h2>
+              <p class="main_txt_sub">작은글씨</p>
+              <span class="text-area__goto text-area__goto--hidden">(솔루션 문의하기)바로가기</span>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- 섹션1 -->
+      <section class="section section01">
+        <div class="inner">
+          <div class="section__tit motion">
+            섹션 타이틀
+            <h2 class="tit_bold">두번째 섹션 굵은 글씨 <br class="tit_bold" />두번째 글씨 볼드</h2>
+            <h4 class="tit_green">초록색 글씨</h4>
+          </div>
+          <div class="section__cont">
+            <ul class="section01_list">
+              <div class="mo_progressbar mo_progress-start">
+                <span class="mo_progress">
+                  <!-- ::after 추가 -->
+                </span>
+              </div>
+              <li class="mo_listCount1"></li>
+              <li class="mo_listCount2"></li>
+              <li class="mo_listCount3"></li>
+              <li class="mo_listCount4"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 새로운 섹션2 -->
+      <section class="section section02">
+        <div class="inner">
+          <div class="section__tit motion">
+            섹션 타이틀
+            <h2 class="tit_bolder">아주 굵은 글씨 <br class="tit_bold" />글씨 볼드</h2>
+          </div>
+          <ul class="section02_list">
+            <li class="motion">
+              <div class="section02_txt_box">
+                <span class="lst_tag">wear</span>
+                <h2 class="lst_note">글씨<br /></h2>
+                <h2 class="lst_note">글씨<br />글씨</h2>
+                <a href="#" class="lst_link">
+                  <!-- ::after 추가 -->
+                  <!-- i tag 로 arrow 아이콘과 밑줄모션 가져오기 -->
+                </a>
+              </div>
+              <figure class="section02_img_box">
+                <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+              </figure>
+            </li>
+
+            <li class="motion">
+              <div class="section02_txt_box">
+                <span class="lst_tag">app</span>
+                <h2 class="lst_note">글씨<br /></h2>
+                <h2 class="lst_note">글씨<br />글씨</h2>
+                <a href="#" class="lst_link">
+                  <!-- ::after 추가 -->
+                  <!-- i tag 로 arrow 아이콘과 밑줄모션 가져오기 -->
+                </a>
+              </div>
+              <figure class="section02_img_box">
+                <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+              </figure>
+            </li>
+
+            <li class="motion">
+              <div class="section02_txt_box">
+                <span class="lst_tag">web</span>
+                <h2 class="lst_note">글씨<br /></h2>
+                <h2 class="lst_note">글씨<br />글씨</h2>
+                <a href="#" class="lst_link">
+                  <!-- ::after 추가 -->
+                  <!-- i tag 로 arrow 아이콘과 밑줄모션 가져오기 -->
+                </a>
+              </div>
+              <figure class="section02_img_box">
+                <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+              </figure>
+            </li>
+
+            <li class="motion">
+              <div class="section02_txt_box">
+                <span class="lst_tag">report</span>
+                <h2 class="lst_note">글씨<br /></h2>
+                <h2 class="lst_note">글씨<br />글씨</h2>
+                <a href="#" class="lst_link">
+                  <!-- ::after 추가 -->
+                  <!-- i tag 로 arrow 아이콘과 밑줄모션 가져오기 -->
+                </a>
+              </div>
+              <figure class="section02_img_box">
+                <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+              </figure>
+            </li>
+          </ul>
+          <div class="section__cont"></div>
+        </div>
+      </section>
+
+      <!-- 섹션3 -->
+      <section class="section section03">
+        <div class="section__tit motion">
+          섹션 타이틀
+          <span class="lst_tag">협업 콜라보</span>
+          <h2 class="txt_bold">글씨</h2>
+        </div>
+
+        <div class="section__cont">
+          <ul class="section03_list">
+            <li>
+              <figure>
+                <img src="../resources/images/pattern/common/cake_2.jpg" alt="" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../resources/images/pattern/common/cake_2.jpg" alt="" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../resources/images/pattern/common/cake_2.jpg" alt="" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../resources/images/pattern/common/cake_2.jpg" alt="" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="../resources/images/pattern/common/cake_2.jpg" alt="" />
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 섹션 4-->
+      <section class="section section04">
+        <div class="inner">
+          <div class="section__tit">
+            새로운소식
+            <div class="section04_txt_box">
+              <span class="list_tag">news</span>
+              <h2 class="txt bold">글씨</h2>
+            </div>
+            <div class="section__more">
+              <a href="#" class="link_more"
+                >see more
+                <!-- ::after 추가 -->
+                <!-- iframe See more 와 arrow 아이콘 가져오기 -->
+              </a>
+            </div>
+          </div>
+
+          <!-- 스와이퍼 시작 -->
+          <div class="section__cont">
+            <div class="swiper slide-section04">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <figure class="section04_img_box">
+                      <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+                    </figure>
+                    <div class="section04_txt_box">
+                      <span class="tit_light">글씨</span>
+                      <strong class="cont_ligth"
+                        >웰리시스, KIMES서 웨어러블 심전도 레이저와도 전...
+                        <em>2024.10.16</em>
+                      </strong>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <figure class="section04_img_box">
+                      <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+                    </figure>
+                    <div class="section04_txt_box">
+                      <span class="tit_light">글씨</span>
+                      <strong class="cont_ligth"
+                        >웰리시스, KIMES서 웨어러블 심전도 레이저와도 전...
+                        <em>2024.10.16</em>
+                      </strong>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <figure class="section04_img_box">
+                      <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+                    </figure>
+                    <div class="section04_txt_box">
+                      <span class="tit_light">글씨</span>
+                      <strong class="cont_ligth"
+                        >웰리시스, KIMES서 웨어러블 심전도 레이저와도 전...
+                        <em>2024.10.16</em>
+                      </strong>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <figure class="section04_img_box">
+                      <img src="../resources/images/pattern/common/cake_1.jpg" alt="" />
+                    </figure>
+                    <div class="section04_txt_box">
+                      <span class="tit_light">글씨</span>
+                      <strong class="cont_ligth"
+                        >웰리시스, KIMES서 웨어러블 심전도 레이저와도 전...
+                        <em>2024.10.16</em>
+                      </strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer" include-html="./layout/footer.html">
+        <nav class="footer-nav">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Contact Us</a>
+        </nav>
+        <div class="footer-text">&copy; 2024 Your Company. All Rights Reserved.</div>
+      </footer>
+    </div>
+  </body>
+</html>
