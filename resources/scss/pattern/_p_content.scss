@@ -103,3 +103,26 @@
     bottom: -50px;
   }
 }
+
+.lst_tag {
+  width: 50px;
+  height: 20px;
+  border: 1px #ffff;
+  border-radius: 50px;
+  background-color: #000;
+}
+
+.sim_wrap {
+  height: 60px;
+  width: 60px;
+  background-color: #000;
+  border-radius: 60px;
+  & {
+    width: 50px;
+    height: 50px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
