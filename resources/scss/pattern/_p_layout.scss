@@ -305,3 +305,11 @@
     left: 0;
   }
 }
+
+#footer {
+  background-color: #161616;
+  .footer_end {
+    display: flex;
+    justify-content: space-between;
+  }
+}

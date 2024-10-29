@@ -107,7 +107,7 @@
 .lst_tag {
   width: 50px;
   height: 20px;
-  border: 1px #ffff;
+  border: 1px solid $white;
   border-radius: 50px;
   background-color: #000;
 }
@@ -115,7 +115,7 @@
 .sim_wrap {
   height: 60px;
   width: 60px;
-  background-color: #000;
+  background-color: #181818;
   border-radius: 60px;
   & {
     width: 50px;

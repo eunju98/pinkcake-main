@@ -89,6 +89,7 @@ table {
 }
 
 body {
+  background-color: $gray-100;
   -webkit-text-size-adjust: none;
 }
 
@@ -141,7 +142,7 @@ body {
 }
 
 a {
-  color: $font-color-base;
+  color: $white;
   text-decoration: none;
 
   &:active,
