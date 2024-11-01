@@ -60,7 +60,9 @@
 @media screen and (min-width: 1024px) {
   .slide-intro {
     .swiper-slide {
+      border-radius: 30px;
       img {
+        border-radius: 30px;
         height: 70vh;
       }
       .text-area {

@@ -35,8 +35,10 @@ button,
 fieldset,
 img {
   border: 0 none;
-  width: 150px;
-  height: 150px;
+}
+img,
+video {
+  max-width: 100%;
 }
 
 dl,
@@ -89,7 +91,6 @@ table {
 }
 
 body {
-  background-color: $gray-100;
   -webkit-text-size-adjust: none;
 }
 
@@ -137,12 +138,19 @@ body {
   font-size: $font-size-base;
   line-height: $line-height-base;
   font-family: $font-family-base;
-  color: $white;
+  color: $font-color-base;
   font-weight: $font-weight-base;
+  background-color: $black;
+  .tit_green {
+    color: $feathers-green01;
+  }
+  .lst_link {
+    color: $feathers-green01;
+  }
 }
 
 a {
-  color: $white;
+  color: $font-color-base;
   text-decoration: none;
 
   &:active,

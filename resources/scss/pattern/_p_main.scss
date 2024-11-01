@@ -1,0 +1,36 @@
+.video_intro {
+  video {
+    width: 100%;
+  }
+  .main_txt_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    .main_txt {
+      margin-bottom: 200px;
+    }
+  }
+}
+
+.section.section01 {
+  .section__tit motion {
+    padding: auto;
+    display: contents;
+    text-align: left;
+  }
+}
+
+.section.section02 {
+}
+
+.section.section04 {
+}
+
+.slide-section04 {
+  .swiper-slide {
+    overflow: hidden;
+    border-radius: 30px;
+    background: #151515;
+  }
+}

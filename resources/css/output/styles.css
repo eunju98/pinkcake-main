@@ -37,8 +37,11 @@ button,
 fieldset,
 img {
   border: 0 none;
-  width: 150px;
-  height: 150px;
+}
+
+img,
+video {
+  max-width: 100%;
 }
 
 dl,
@@ -85,7 +88,6 @@ table {
 }
 
 body {
-  background-color: #000000;
   -webkit-text-size-adjust: none;
 }
 
@@ -133,6 +135,13 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   color: #fff;
   font-weight: 400;
+  background-color: #000;
+}
+body .tit_green {
+  color: #00a603;
+}
+body .lst_link {
+  color: #00a603;
 }
 
 a {
@@ -145,7 +154,7 @@ a:active, a:hover {
 
 @media screen and (min-width: 1280px) {
   a {
-    color: #1d1d1d;
+    color: #fff;
     text-decoration: none;
   }
   a:active, a:hover {
@@ -184,7 +193,7 @@ input[type=password] {
   right: 0;
   display: inline-block;
   padding: 7px 10px 5px;
-  background: #1d1d1d;
+  background: #fff;
   color: #fff;
   text-decoration: none;
   text-align: center;
@@ -648,11 +657,82 @@ legend {
 }
 
 #footer {
+  padding: 50px 0;
+  display: flex;
+  margin-top: 100px;
   background-color: #161616;
 }
-#footer .footer_end {
+#footer .footer_tit {
+  margin-bottom: 30px;
+}
+#footer .footer_inner {
+  max-width: 1680px;
+  width: 92%;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#footer .footer_inner .footer_end {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer .footer_inner .footer_end li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+  width: 49%;
+  padding: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+#footer .footer_inner .footer_end li:nth-child(2n) {
+  border-left: 1px solid #2d2d2d;
+}
+#footer .footer_inner .footer_end li a {
+  margin-bottom: 15px;
+  display: block;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+#footer .footer_inner .footer_end li a.sub_tit {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#footer img {
+  width: 130px;
+}
+
+.video_intro video {
+  width: 100%;
+}
+.video_intro .main_txt_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.video_intro .main_txt_wrap .main_txt {
+  margin-bottom: 200px;
+}
+
+.section.section01 .section__tit motion {
+  padding: auto;
+  display: contents;
+  text-align: left;
+}
+
+.slide-section04 .swiper-slide {
+  overflow: hidden;
+  border-radius: 30px;
+  background: #151515;
 }
 
 .slide-intro .swiper-slide {
@@ -705,7 +785,11 @@ legend {
   }
 }
 @media screen and (min-width: 1024px) {
+  .slide-intro .swiper-slide {
+    border-radius: 30px;
+  }
   .slide-intro .swiper-slide img {
+    border-radius: 30px;
     height: 70vh;
   }
   .slide-intro .swiper-slide .text-area {

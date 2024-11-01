@@ -18,6 +18,11 @@ $primary-80: #0e2b5e;
 $primary-90: #07152f;
 $primary-100: #000000;
 
+// 다른 색상(나(은주)의 지정컬러)
+$feathers-green01: #00a603;
+$feathers-gray01: #161616;
+$feathers-gray02: #b3b3b3;
+
 // # Secondary colors
 $secondary: #003675;
 $secondary-0: #ffffff;
@@ -51,7 +56,7 @@ $gray-100: #000000;
 $font-family-base: "Noto Sans KR", sans-serif !default;
 $font-size-root: 62.5% !default; //10px 1rem으로 설정
 $font-size-base: 1.7rem !default;
-$font-color-base: $gray-90 !default;
+$font-color-base: $white !default;
 $font-weight-base: 400 !default;
 
 //font weight
