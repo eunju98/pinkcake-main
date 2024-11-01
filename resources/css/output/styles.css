@@ -692,6 +692,11 @@ legend {
 #footer .footer_inner .footer_end li:nth-child(2n) {
   border-left: 1px solid #2d2d2d;
 }
+#footer .footer_inner .footer_end li li::before {
+  width: 1px;
+  height: 80%;
+  color: #2d2d2d;
+}
 #footer .footer_inner .footer_end li a {
   margin-bottom: 15px;
   display: block;
@@ -729,10 +734,36 @@ legend {
   text-align: left;
 }
 
+.section.section02 {
+  text-align: left;
+}
+
+.section.section03 .section__cont .section03_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section.section03 .section__cont .section03_list li {
+  flex: 1;
+  text-align: center;
+}
+.section.section03 .section__cont .section03_list li figure {
+  margin: 0;
+}
+.section.section03 .section__cont .section03_list li figure img {
+  max-width: none;
+  height: auto;
+  transform: scale(1.2);
+  overflow: visible;
+}
+
 .slide-section04 .swiper-slide {
   overflow: hidden;
   border-radius: 30px;
   background: #151515;
+}
+.slide-section04 .section04_txt_box {
+  height: 100px;
 }
 
 .slide-intro .swiper-slide {

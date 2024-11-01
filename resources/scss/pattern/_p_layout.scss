@@ -339,6 +339,12 @@
           border-left: 1px solid $gray-80;
         }
 
+        li::before {
+          width: 1px;
+          height: 80%;
+          color: $gray-80;
+        }
+
         a {
           margin-bottom: 15px;
           display: block;
