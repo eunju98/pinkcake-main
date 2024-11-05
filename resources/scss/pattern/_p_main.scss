@@ -2,6 +2,23 @@
   video {
     width: 100%;
   }
+  .main_txt_tit {
+    font-size: 32px;
+  }
+
+  .main_txt_sub {
+    font-size: 22px;
+    margin-top: 23px;
+  }
+
+  .text-area__goto {
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 15px 10px;
+  }
+
   .main_txt_wrap {
     display: flex;
     flex-direction: column;
@@ -14,15 +31,56 @@
 }
 
 .section.section01 {
+  .inner {
+    margin: 40px;
+  }
   .section__tit motion {
     padding: auto;
     display: contents;
     text-align: left;
   }
+  .tit_bold_top {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  .tit_green {
+    font-size: 14px;
+  }
+
+  .section__cont {
+    ul {
+      margin: 80px 0;
+    }
+    li {
+      margin-top: 85px;
+      display: flex;
+      align-items: center;
+      .f_xs_main {
+        font-size: 12px;
+      }
+    }
+
+    .sim_wrap {
+      width: 65px;
+      height: 65px;
+    }
+  }
 }
 
 .section.section02 {
   text-align: left;
+  .tit_bolder {
+    font-size: 50px;
+  }
+  .tit_bold {
+    font-size: 30px;
+  }
+  .tit_green {
+    font-size: 14px;
+  }
+  .section02_txt_box {
+    display: block;
+  }
 }
 
 .section.section03 {
