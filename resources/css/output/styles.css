@@ -727,11 +727,13 @@ legend {
   margin-top: 23px;
 }
 .video_intro .text-area__goto {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   margin-top: 30px;
   border-radius: 40px;
   border: 1px solid #fff;
-  padding: 5px 5px;
+  padding: 5px 5px 5px 15px;
   font-size: 12px;
 }
 .video_intro .main_txt_wrap {
@@ -742,6 +744,10 @@ legend {
 }
 .video_intro .main_txt_wrap .main_txt {
   margin-bottom: 200px;
+}
+.video_intro .main_txt_wrap .btn_icon {
+  width: 20px;
+  height: 20px;
 }
 
 .section01 .inner {
@@ -796,8 +802,10 @@ legend {
   font-size: 14px;
 }
 .section02 .section02_txt_box {
-  display: block;
-  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px 0;
 }
 .section02 .lst_note {
   font-size: 20px;
