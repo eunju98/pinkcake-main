@@ -348,6 +348,12 @@ legend {
   }
 }
 
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
 #skip-nav {
   position: fixed;
   top: 0;
@@ -624,6 +630,7 @@ legend {
   border-bottom: 1px solid #c6c6c6;
 }
 .util .search {
+  color: #fff;
   transform: scaleX(-1);
 }
 .util .search::before {
@@ -631,6 +638,9 @@ legend {
   font-family: "Line Awesome Free";
   font-weight: 900;
   font-size: 3rem;
+}
+.util .all-menu {
+  color: #fff;
 }
 .util .all-menu::before {
   content: "\f0c9";
@@ -683,11 +693,10 @@ legend {
   width: 100%;
 }
 #footer .footer_inner .footer_end li {
-  width: 48%; /* 각 섹션 너비 설정 */
+  flex: 1 1 calc(50% - 30px);
   padding: 20px 0;
   text-align: left;
   position: relative;
-  /* li 태그 왼쪽에 선 추가 */
 }
 #footer .footer_inner .footer_end li::before {
   content: "";
@@ -810,6 +819,9 @@ legend {
 .section02 .lst_note {
   font-size: 20px;
 }
+.section02 li img {
+  border-radius: 30px;
+}
 
 .section03 {
   overflow: hidden;
@@ -833,19 +845,25 @@ legend {
   overflow: visible;
 }
 
-.slide-section04 .swiper-slide {
+.section04 .swiper-slide {
   overflow: hidden;
   border-radius: 25px;
   background: #151515;
 }
-.slide-section04 .section04_img_box {
+.section04 .section04_img_box {
   height: 200px;
 }
-.slide-section04 .section04_txt_box {
+.section04 .section04_txt_box {
   display: block;
   unicode-bidi: isolate;
   height: 120px;
   padding: 18px 20px 18px 20px;
+}
+.section04 .section04_txt_box .list_tag {
+  padding: 0 10px 5px 10px;
+  border-radius: 28px;
+  display: inline-block;
+  border: 1px solid #fff;
 }
 
 .slide-intro .swiper-slide {

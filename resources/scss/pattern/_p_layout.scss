@@ -15,6 +15,12 @@
   }
 }
 
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
 #skip-nav {
   position: fixed;
   top: 0;
@@ -273,6 +279,7 @@
     }
   }
   .search {
+    color: $white;
     transform: scaleX(-1);
     &::before {
       content: "\f002";
@@ -281,6 +288,7 @@
     }
   }
   .all-menu {
+    color: $white;
     &::before {
       content: "\f0c9";
       @include lineAwesome;
@@ -334,12 +342,11 @@
       width: 100%;
 
       li {
-        width: 48%; /* 각 섹션 너비 설정 */
+        flex: 1 1 calc(50% - 30px);
         padding: 20px 0;
         text-align: left;
         position: relative;
 
-        /* li 태그 왼쪽에 선 추가 */
         &::before {
           content: "";
           position: absolute;

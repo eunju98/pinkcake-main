@@ -101,6 +101,11 @@
   .lst_note {
     font-size: 20px;
   }
+  li {
+    img {
+      border-radius: 30px;
+    }
+  }
 }
 
 .section03 {
@@ -130,7 +135,7 @@
   }
 }
 
-.slide-section04 {
+.section04 {
   .swiper-slide {
     overflow: hidden;
     border-radius: 25px;
@@ -145,5 +150,12 @@
 
     height: 120px;
     padding: 18px 20px 18px 20px;
+
+    .list_tag {
+      padding: 0 10px 5px 10px;
+      border-radius: 28px;
+      display: inline-block;
+      border: 1px solid #fff;
+    }
   }
 }
