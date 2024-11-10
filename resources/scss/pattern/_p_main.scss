@@ -28,7 +28,7 @@
     gap: 20px;
     text-align: center;
     .main_txt {
-      margin-bottom: 200px;
+      margin-bottom: 50px;
     }
     .btn_icon {
       width: 20px;
@@ -38,9 +38,6 @@
 }
 
 .section01 {
-  .inner {
-    margin: 40px;
-  }
   .section__tit motion {
     padding: auto;
     display: contents;
@@ -141,6 +138,12 @@
     border-radius: 25px;
     background: #151515;
   }
+  .list_tag {
+    padding: 0 10px 5px 10px;
+    border-radius: 28px;
+    display: inline-block;
+    border: 1px solid #fff;
+  }
   .section04_img_box {
     height: 200px;
   }
@@ -150,12 +153,5 @@
 
     height: 120px;
     padding: 18px 20px 18px 20px;
-
-    .list_tag {
-      padding: 0 10px 5px 10px;
-      border-radius: 28px;
-      display: inline-block;
-      border: 1px solid #fff;
-    }
   }
 }

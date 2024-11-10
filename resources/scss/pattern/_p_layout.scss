@@ -18,7 +18,7 @@
 #container {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 30px;
 }
 
 #skip-nav {
@@ -328,7 +328,7 @@
     max-width: 1680px;
     width: 92%;
     margin: 0 auto;
-    padding: 0 20px;
+    // padding: 0 20px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -373,6 +373,14 @@
           padding-left: 10px; /* 선과의 간격 */
         }
       }
+    }
+
+    .end_inner {
+      background: $black;
+    }
+
+    .end_cont {
+      margin: 40px 0 0 0;
     }
   }
 

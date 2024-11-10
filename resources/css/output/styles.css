@@ -143,6 +143,10 @@ body .tit_green {
 body .lst_link {
   color: #00a603;
 }
+body i {
+  font-size: 10px;
+  color: #555555;
+}
 
 a {
   color: #fff;
@@ -340,7 +344,7 @@ legend {
   width: 100%;
   max-width: 1340px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 45px;
 }
 @media (min-width: 600px) and (max-width: 1023px) {
   .inner {
@@ -351,7 +355,7 @@ legend {
 #container {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 30px;
 }
 
 #skip-nav {
@@ -409,7 +413,7 @@ legend {
   gap: 10px;
   position: absolute;
   top: 17px;
-  right: 20px;
+  right: 45px;
   font-size: 2rem;
 }
 @media (min-width: 600px) {
@@ -655,7 +659,7 @@ legend {
   left: 100%;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 45px;
   background: rgba(255, 255, 255, 0.9);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -679,7 +683,6 @@ legend {
   max-width: 1680px;
   width: 92%;
   margin: 0 auto;
-  padding: 0 20px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -721,6 +724,12 @@ legend {
   display: block;
   padding-left: 10px; /* 선과의 간격 */
 }
+#footer .footer_inner .end_inner {
+  background: #000;
+}
+#footer .footer_inner .end_cont {
+  margin: 40px 0 0 0;
+}
 #footer img {
   width: 130px; /* 로고 이미지 크기 */
 }
@@ -752,16 +761,13 @@ legend {
   text-align: center;
 }
 .video_intro .main_txt_wrap .main_txt {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 .video_intro .main_txt_wrap .btn_icon {
   width: 20px;
   height: 20px;
 }
 
-.section01 .inner {
-  margin: 40px;
-}
 .section01 .section__tit motion {
   padding: auto;
   display: contents;
@@ -850,6 +856,12 @@ legend {
   border-radius: 25px;
   background: #151515;
 }
+.section04 .list_tag {
+  padding: 0 10px 5px 10px;
+  border-radius: 28px;
+  display: inline-block;
+  border: 1px solid #fff;
+}
 .section04 .section04_img_box {
   height: 200px;
 }
@@ -858,12 +870,6 @@ legend {
   unicode-bidi: isolate;
   height: 120px;
   padding: 18px 20px 18px 20px;
-}
-.section04 .section04_txt_box .list_tag {
-  padding: 0 10px 5px 10px;
-  border-radius: 28px;
-  display: inline-block;
-  border: 1px solid #fff;
 }
 
 .slide-intro .swiper-slide {
