@@ -315,14 +315,22 @@
 }
 
 #footer {
-  padding: 50px 0; /* 푸터의 위아래 패딩 */
+  padding: 150px 0; /* 푸터의 위아래 패딩 */
   display: flex;
   margin-top: 100px;
   background-color: $feathers-gray01;
+  @include mobileMore {
+    flex-direction: row; /* 가로 정렬 */
+    justify-content: space-between; /* 가로로 간격 배치 */
+  }
+  .footer_cont {
+    width: 100%;
+  }
 
   .footer_tit {
     margin-bottom: 30px; /* 타이틀과 목록 간의 여백 */
   }
+
 
   .footer_inner {
     max-width: 1680px;
@@ -334,12 +342,19 @@
     flex-direction: column;
     align-items: flex-start;
 
+
     .footer_end {
       font-size: 12px;
       display: flex;
       flex-wrap: wrap;
       gap: 30px; /* 각 섹션 간 간격 */
       width: 100%;
+
+      @include mobileMore {
+       flex-direction: row;
+       flex-wrap: nowrap;
+
+      }
 
       li {
         flex: 1 1 calc(50% - 30px);
