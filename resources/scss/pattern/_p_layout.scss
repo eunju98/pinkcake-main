@@ -315,10 +315,10 @@
 }
 
 #footer {
-  padding: 150px 0; /* 푸터의 위아래 패딩 */
+  padding: 150px 0 20px 0;
   display: flex;
   margin-top: 100px;
-  background-color: $feathers-gray01;
+  // background-color: $feathers-gray01;
   @include mobileMore {
     flex-direction: row; /* 가로 정렬 */
     justify-content: space-between; /* 가로로 간격 배치 */
@@ -333,9 +333,10 @@
 
 
   .footer_inner {
+    background: #161616;
     max-width: 1680px;
-    width: 92%;
-    margin: 0 auto 100px auto;
+    width: 100%;
+    padding : 50px 50px 70px 50px;
     // padding: 0 20px;
     position: relative;
     display: flex;
@@ -390,13 +391,14 @@
       }
     }
 
-    .end_inner {
-      background: $black;
-    }
 
-    .end_cont {
-      margin: 40px 0 0 0;
-    }
+  }
+  .end_inner {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .end_cont {
+    margin: 40px 0 0 0;
   }
 
   img {

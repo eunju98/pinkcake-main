@@ -671,10 +671,9 @@ legend {
 }
 
 #footer {
-  padding: 150px 0; /* 푸터의 위아래 패딩 */
+  padding: 150px 0 20px 0;
   display: flex;
   margin-top: 100px;
-  background-color: #161616;
 }
 @media (min-width: 600px) {
   #footer {
@@ -689,9 +688,10 @@ legend {
   margin-bottom: 30px; /* 타이틀과 목록 간의 여백 */
 }
 #footer .footer_inner {
+  background: #161616;
   max-width: 1680px;
-  width: 92%;
-  margin: 0 auto 100px auto;
+  width: 100%;
+  padding: 50px 50px 70px 50px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -739,10 +739,10 @@ legend {
   display: block;
   padding-left: 10px; /* 선과의 간격 */
 }
-#footer .footer_inner .end_inner {
-  background: #000;
+#footer .end_inner {
+  padding: 30px 50px 30px 30px;
 }
-#footer .footer_inner .end_cont {
+#footer .end_cont {
   margin: 40px 0 0 0;
 }
 #footer img {
