@@ -846,6 +846,13 @@ legend {
 
 .section03 {
   overflow: hidden;
+  padding: 250px 0;
+}
+.section03 .txt_bold {
+  margin-top: 30px;
+}
+.section03 .section__cont {
+  margin-top: 80px;
 }
 .section03 .section__cont .section03_list {
   display: flex;
@@ -997,7 +1004,7 @@ legend {
 
 .lst_tag {
   display: inline-block;
-  padding: 2px 15px;
+  padding: 2px 15px 4px 15px;
   border: 1px solid #fff;
   border-radius: 50px;
   background-color: #000;
