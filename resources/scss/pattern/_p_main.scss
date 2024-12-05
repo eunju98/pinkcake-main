@@ -113,6 +113,10 @@
     margin-top: 30px;
   }
 
+  .section__tit {
+    justify-items: center;
+  }
+
   .section__cont {
     margin-top: 80px;
     .section03_list {
@@ -140,6 +144,41 @@
 }
 
 .section04 {
+  .section04_txt_news {
+    margin-bottom: 30px;
+    @include mobileMore {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      margin-bottom: 75px;
+    }
+
+    .list_tag {
+      margin-bottom: 20px;
+    }
+    .txt_bold {
+      margin-bottom: 10px;
+    }
+
+
+
+    .list_tag {
+      @include mobileMore {
+        margin-bottom: 25px;
+      }
+    }
+
+    .section__more {
+      @include mobileMore {
+        margin-right: 75px;
+      }
+      
+
+    }
+
+  }
+
+
   .swiper-slide {
     overflow: hidden;
     border-radius: 25px;
