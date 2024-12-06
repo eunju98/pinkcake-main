@@ -135,3 +135,32 @@
 }
 
 
+// second page
+.section-What {
+  background: #027F04;
+  .list-circle {
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 300px;
+    li {
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.2);
+      width: 250px;
+      height: 250px;
+      border-radius: 250px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      &:nth-child(2) {
+        margin-top: -25px;
+      }
+      &:nth-child(3) {
+        margin-top: -25px;
+      }
+    }
+  }
+}
+
+// .list-circle li:nth-child(2) {}

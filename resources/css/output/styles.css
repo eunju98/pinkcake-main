@@ -135,7 +135,6 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   color: #fff;
   font-weight: 400;
-  background-color: #000;
 }
 body .tit_green {
   color: #00a603;
@@ -290,6 +289,10 @@ legend {
 
 :root {
   --swiper-theme-color: red;
+}
+
+.bg-black {
+  background-color: #000;
 }
 
 .swiper {
@@ -1056,4 +1059,31 @@ legend {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-What {
+  background: #027F04;
+}
+.section-What .list-circle {
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 300px;
+}
+.section-What .list-circle li {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.section-What .list-circle li:nth-child(2) {
+  margin-top: -25px;
+}
+.section-What .list-circle li:nth-child(3) {
+  margin-top: -25px;
 }/*# sourceMappingURL=styles.css.map */
