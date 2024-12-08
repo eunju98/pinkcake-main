@@ -138,9 +138,15 @@
 // second page
 .section-What {
   background: #027F04;
+  .tit_box {
+    .how {
+      color: #027F04;
+    }
+  }
   .list-circle {
-    padding: 20px;
-    border: 1px solid #fff;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-style: dashed;
     border-radius: 300px;
     li {
       margin: 0 auto;
