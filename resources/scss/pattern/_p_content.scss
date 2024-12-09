@@ -136,6 +136,9 @@
 
 
 // second page
+.section {
+  padding: 50px 0;
+}
 .tit_box {
   .who {
     color: #027F04;
@@ -163,7 +166,7 @@
   font-size: 13px;
   opacity: 0.7;
 }
-.section-What {
+.section-what {
   background: #027F04;
   .circle-line {
     display: flex;
@@ -171,7 +174,6 @@
   }
 
   .list-circle {
-    width: 270px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-style: dashed;
@@ -179,9 +181,9 @@
     li {
       margin: 0 auto;
       background: rgba(255, 255, 255, 0.2);
-      width: 250px;
-      height: 250px;
-      border-radius: 250px;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -196,7 +198,7 @@
       .fz_42 {
         font-size: 42px;
         font-weight: bolder;
-        color: #ffff;
+        color: $black;
       }
       .fz_12 {
         font-size: 12px;
@@ -207,11 +209,11 @@
 }
 .circle_off {
   position: relative; /* 자식 요소의 position 조정을 위한 기준 설정 */
-  width: 27px;
-  height: 27px;
+  width: 21px;
+  height: 21px;
   border-radius: 50%;
   background: #ffff;
-  opacity: 0.7;
+  opacity: 0.3;
   
 }
 .circle_on {

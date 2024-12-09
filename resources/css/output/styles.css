@@ -1061,6 +1061,10 @@ legend {
   align-items: center;
 }
 
+.section {
+  padding: 50px 0;
+}
+
 .tit_box .who {
   color: #027F04;
   font-size: 12px;
@@ -1087,55 +1091,54 @@ legend {
   opacity: 0.7;
 }
 
-.section-What {
+.section-what {
   background: #027F04;
 }
-.section-What .circle-line {
+.section-what .circle-line {
   display: flex;
   justify-content: center;
 }
-.section-What .list-circle {
-  width: 270px;
+.section-what .list-circle {
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-style: dashed;
   border-radius: 300px;
 }
-.section-What .list-circle li {
+.section-what .list-circle li {
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.2);
-  width: 250px;
-  height: 250px;
-  border-radius: 250px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.section-What .list-circle li:nth-child(2) {
+.section-what .list-circle li:nth-child(2) {
   margin-top: -25px;
 }
-.section-What .list-circle li:nth-child(3) {
+.section-what .list-circle li:nth-child(3) {
   margin-top: -25px;
 }
-.section-What .list-circle li .fz_42 {
+.section-what .list-circle li .fz_42 {
   font-size: 42px;
   font-weight: bolder;
-  color: white;
+  color: #000;
 }
-.section-What .list-circle li .fz_12 {
+.section-what .list-circle li .fz_12 {
   font-size: 12px;
   color: white;
 }
 
 .circle_off {
   position: relative; /* 자식 요소의 position 조정을 위한 기준 설정 */
-  width: 27px;
-  height: 27px;
+  width: 21px;
+  height: 21px;
   border-radius: 50%;
   background: white;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 .circle_on {
