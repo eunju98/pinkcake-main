@@ -136,14 +136,42 @@
 
 
 // second page
-.section-What {
-  background: #027F04;
-  .tit_box {
-    .how {
+.tit_box {
+  .who {
+    color: #027F04;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .white {
+    color: $white;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .focus {
+    font-size: 32px;
+    margin: 20px 0 15px;
+    line-height: 1.2;
+    .tit_color {
+      display: block;
       color: #027F04;
+      font-weight: bolder;
+      
     }
   }
+}
+.item_info {
+  font-size: 13px;
+  opacity: 0.7;
+}
+.section-What {
+  background: #027F04;
+  .circle-line {
+    display: flex;
+    justify-content: center;
+  }
+
   .list-circle {
+    width: 270px;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-style: dashed;
@@ -165,8 +193,45 @@
       &:nth-child(3) {
         margin-top: -25px;
       }
+      .fz_42 {
+        font-size: 42px;
+        font-weight: bolder;
+        color: #ffff;
+      }
+      .fz_12 {
+        font-size: 12px;
+        color: #ffff;
+      }
     }
   }
 }
+.circle_off {
+  position: relative; /* 자식 요소의 position 조정을 위한 기준 설정 */
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #ffff;
+  opacity: 0.7;
+  
+}
+.circle_on {
+  position: relative; /* 자식 요소의 position 조정을 위한 기준 설정 */
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #027f04;
+
+  .circle_black {
+    position: absolute; /* 부모 요소(.circle_on)를 기준으로 위치 조정 */
+    top: 4px; /* 원하는 만큼 위로 이동 */
+    left: 4px; /* 수평 조정 (필요 시) */
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: $black;
+    z-index: 1; /* div 위로 올리기 */
+  }
+}
+
 
 // .list-circle li:nth-child(2) {}
