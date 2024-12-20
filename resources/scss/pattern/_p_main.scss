@@ -80,6 +80,7 @@
 .section02 {
   display: block;
   text-align: left;
+
   .tit_bolder {
     font-size: 50px;
   }
@@ -102,6 +103,10 @@
   li {
     img {
       border-radius: 30px;
+    }
+    @include tabletMore {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

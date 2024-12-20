@@ -846,6 +846,12 @@ legend {
 .section02 li img {
   border-radius: 30px;
 }
+@media (min-width: 1024px) {
+  .section02 li {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .section03 {
   overflow: hidden;
