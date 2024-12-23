@@ -1,6 +1,8 @@
 
 // 사이트 컨텐츠 내용
-
+.intro {
+  text-align: center;
+}
 .slide-intro {
   .swiper-slide {
     position: relative;
@@ -178,6 +180,9 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-style: dashed;
     border-radius: 300px;
+    @include tabletMore {
+      display: flex;
+    }
     li {
       margin: 0 auto;
       background: rgba(255, 255, 255, 0.2);
@@ -189,11 +194,23 @@
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      &:nth-child(1) {
+        @include tabletMore {
+          margin-right: -25px;
+        }
+      }
       &:nth-child(2) {
         margin-top: -25px;
+        @include tabletMore {
+          margin-top: 0;
+        }
       }
       &:nth-child(3) {
         margin-top: -25px;
+        @include tabletMore {
+          margin-top: 0;
+          margin-left: -25px;
+        }
       }
       .fz_42 {
         font-size: 42px;

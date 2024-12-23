@@ -59,12 +59,50 @@
   .section__cont {
     ul {
       margin: 80px 0;
+      // @include tabletMore {
+      //   .timeline {
+      //     display: flex;
+      //     justify-content: center;
+      //     align-items: center;
+      //     gap: 50px;
+      //     margin-top: 50px;
+        
+      //     .step {
+      //       opacity: 0; // 초기 상태: 비활성화
+      //       transform: scale(0.8); // 초기 크기 조정
+      //       transition: transform 0.3s ease, opacity 0.3s ease;
+        
+      //       .icon {
+      //         background-color: $inactive-icon-color;
+      //         color: $text-color;
+      //         width: 50px;
+      //         height: 50px;
+      //         display: flex;
+      //         justify-content: center;
+      //         align-items: center;
+      //         border-radius: 50%;
+      //         margin-bottom: 10px;
+      //         font-size: 18px;
+      //       }
+        
+      //       &.active {
+      //         opacity: 1; // 활성화 상태
+      //         transform: scale(1); // 원래 크기로 복원
+        
+      //         .icon {
+      //           background-color: $active-icon-color; // 활성화 아이콘 색상
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
     }
     li {
       margin-top: 85px;
       display: flex;
       gap: 20px;
       align-items: center;
+
       .f_xs_main {
         font-size: 12px;
       }

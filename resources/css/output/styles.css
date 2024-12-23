@@ -942,6 +942,10 @@ legend {
   padding-right: 0;
 }
 
+.intro {
+  text-align: center;
+}
+
 .slide-intro .swiper-slide {
   position: relative;
 }
@@ -1110,6 +1114,11 @@ legend {
   border-style: dashed;
   border-radius: 300px;
 }
+@media (min-width: 1024px) {
+  .section-what .list-circle {
+    display: flex;
+  }
+}
 .section-what .list-circle li {
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.2);
@@ -1122,11 +1131,27 @@ legend {
   justify-content: center;
   text-align: center;
 }
+@media (min-width: 1024px) {
+  .section-what .list-circle li:nth-child(1) {
+    margin-right: -25px;
+  }
+}
 .section-what .list-circle li:nth-child(2) {
   margin-top: -25px;
 }
+@media (min-width: 1024px) {
+  .section-what .list-circle li:nth-child(2) {
+    margin-top: 0;
+  }
+}
 .section-what .list-circle li:nth-child(3) {
   margin-top: -25px;
+}
+@media (min-width: 1024px) {
+  .section-what .list-circle li:nth-child(3) {
+    margin-top: 0;
+    margin-left: -25px;
+  }
 }
 .section-what .list-circle li .fz_42 {
   font-size: 42px;
