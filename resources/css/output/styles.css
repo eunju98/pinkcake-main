@@ -807,14 +807,33 @@ legend {
 .section01 .section__cont ul {
   margin: 80px 0;
 }
+@media (min-width: 1024px) {
+  .section01 .section__cont ul {
+    display: flex;
+    justify-content: center;
+  }
+}
 .section01 .section__cont li {
   margin-top: 85px;
   display: flex;
   gap: 20px;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  .section01 .section__cont li {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    position: relative;
+  }
+}
 .section01 .section__cont li .f_xs_main {
   font-size: 12px;
+}
+.section01 .section__cont .sm_fz {
+  position: absolute;
+  top: 27px;
+  left: 0;
 }
 .section01 .section__cont .sim_wrap {
   width: 65px;
