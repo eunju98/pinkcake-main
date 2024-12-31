@@ -795,8 +795,18 @@ legend {
   margin-bottom: 20px;
   font-size: 32px;
 }
+@media (min-width: 1024px) {
+  .section01 .tit_bold_top {
+    font-size: 48px;
+  }
+}
 .section01 .tit_green {
   font-size: 14px;
+}
+@media (min-width: 1024px) {
+  .section01 .tit_green {
+    font-size: 19.25px;
+  }
 }
 .section01 .sm_fz {
   font-size: 12px;
@@ -838,6 +848,12 @@ legend {
 .section01 .section__cont .sim_wrap {
   width: 65px;
   height: 65px;
+}
+@media (min-width: 1024px) {
+  .section01 .section__cont .sim_wrap {
+    width: 96px;
+    height: 96px;
+  }
 }
 
 .section02 {

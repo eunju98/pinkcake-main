@@ -4,6 +4,9 @@
   }
   .main_txt_tit {
     font-size: 32px;
+    @include tabletMore {
+      font-size: 54px;
+    }
   }
 
   .main_txt_sub {
@@ -46,9 +49,15 @@
   .tit_bold_top {
     margin-bottom: 20px;
     font-size: 32px;
+    @include tabletMore {
+      font-size: 48px;
+    }
   }
   .tit_green {
     font-size: 14px;
+    @include tabletMore {
+      font-size: 22px;
+    }
   }
   .sm_fz {
     font-size: 12px;
@@ -90,6 +99,10 @@
     .sim_wrap {
       width: 65px;
       height: 65px;
+      @include tabletMore {
+        width: 96px;
+        height: 96px;
+      }
     }
   }
 }

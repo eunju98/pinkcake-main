@@ -123,8 +123,16 @@
   width: 60px;
   background-color: #181818;
   border-radius: 60px;
+  @include tabletMore {
+    font-size: 60px;
+  }
+
   i {
     font-size: 40px;
+    @include tabletMore {
+      font-size: 48px;
+    }
+    }
   }
   & {
     width: 50px;
@@ -134,7 +142,7 @@
     justify-content: center;
     align-items: center;
   }
-}
+
 
 
 // second page
